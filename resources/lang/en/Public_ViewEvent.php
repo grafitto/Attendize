@@ -44,6 +44,7 @@ return [
     'expiry_year'                       => 'Expiry year',
     'Facebook'                          => 'Facebook',
     'first_name'                        => 'First name',
+    'mpesa_phone_number'                => 'Mpesa Phone Number',
     'free'                              => 'FREE',
     'grand_total'                       => 'Grand Total',
     'has_unlock_codes'                  => 'Do you have an unlock code?',
@@ -97,4 +98,5 @@ return [
     'your_information'                  => 'Your information',
     'your_message'                      => 'Your message',
     'your_name'                         => 'Your name',
+    'request_mpesa_payment'             => 'Request MPESA Payment'
 ];

@@ -415,6 +415,7 @@ class EventCheckoutController extends Controller
             $payment_gateway_config = $ticket_order['account_payment_gateway']->config + [
                                                     'testMode' => config('attendize.enable_test_payments')];
 
+            dd($payment_gateway_config);
             $payment_gateway_factory = new PaymentGatewayFactory();
             $gateway = $payment_gateway_factory->create($ticket_order['payment_gateway']->name, $payment_gateway_config);
             //certain payment gateways require an extra parameter here and there so this method takes care of that

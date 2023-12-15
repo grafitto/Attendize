@@ -36,6 +36,7 @@ return [
   'expiry_month' => 'Miesiąc ważności karty',
   'expiry_year' => 'Rok ważności karty',
   'first_name' => 'Imię',
+  'mpesa_phone_number' => 'Mpesa Phone Number',
   'free' => 'GRATIS',
   'inc_fees' => 'Opłaty za rezerwację',
   'last_name' => 'Nazwisko',

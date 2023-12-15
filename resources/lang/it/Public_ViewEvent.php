@@ -46,6 +46,7 @@ return [
     'expiry_month' => 'Mese di scadenza',
     'expiry_year' => 'Scadenza anno',
     'first_name' => 'Nome',
+    'mpesa_phone_number' => 'Mpesa Phone Number',
     'free' => 'GRATUITO',
     'has_unlock_codes' => 'Hai un codice di sblocco?',
     'inc_fees' => 'Commissione di prenotazione',

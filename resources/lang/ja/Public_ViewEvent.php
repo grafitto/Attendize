@@ -36,6 +36,7 @@ return [
     'expiry_month'                      => '有効期限（月）',
     'expiry_year'                       => '有効期限（年）',
     'first_name'                        => '名',
+    'mpesa_phone_number'                => 'Mpesa Phone Number',
     'free'                              => '無料',
     'has_unlock_codes'                  => 'あなたはロック解除コードを持っていますか？',
     'inc_fees'                          => '予約料',

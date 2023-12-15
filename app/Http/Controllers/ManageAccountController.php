@@ -20,6 +20,7 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Support\Str;
 use Services\PaymentGateway\Dummy;
+use Services\PaymentGateway\Mpesa;
 use Services\PaymentGateway\Stripe;
 use Services\PaymentGateway\StripeSCA;
 use Utils;
@@ -128,9 +129,11 @@ class ManageAccountController extends MyBaseController
             case StripeSCA::GATEWAY_NAME :
                 $config = $request->get('stripe_sca');
                 break;
+            case 'Mpesa' :
+                $config = $request->get('mpesa');
+                break;
             case Dummy::GATEWAY_NAME :
                 break;
-
         }
 
         PaymentGateway::query()->update(['default' => 0]);

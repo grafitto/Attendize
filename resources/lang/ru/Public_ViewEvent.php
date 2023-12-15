@@ -43,6 +43,7 @@ return [
     'expiry_year'                       => 'Год окончания действия',
     'Facebook'                          => 'Facebook',
     'first_name'                        => 'Имя',
+    'mpesa_phone_number'                => 'Mpesa Phone Number',
     'free'                              => 'БЕСПЛАТНО',
     'grand_total'                       => 'Общая сумма',
     'has_unlock_codes'                  => 'У вас есть код разблокировки?',

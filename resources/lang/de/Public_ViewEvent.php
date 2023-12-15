@@ -39,6 +39,7 @@ return array (
   'expiry_month' => 'Ablauf Monat',
   'expiry_year' => 'Ablauf Jahr',
   'first_name' => 'Vorname',
+  'mpesa_phone_number' => 'Mpesa Phone Number',
   'free' => 'KOSTENLOS',
   'inc_fees' => '(incl. :fees Gebühren)',
   'last_name' => 'Nachname',

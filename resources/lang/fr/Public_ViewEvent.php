@@ -41,6 +41,7 @@ return array (
   'expiry_month' => 'Mois d\'expiration',
   'expiry_year' => 'Année d\'expiration',
   'first_name' => 'Prénom',
+  'mpesa_phone_number'  => 'Mpesa Phone Number',
   'free' => 'GRATUIT',
   'inc_fees' => '(:fees de frais inclus)',
   'last_name' => 'Nom',

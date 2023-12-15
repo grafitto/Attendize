@@ -62,5 +62,21 @@ class PaymentGatewaySeeder extends Seeder
             );
         }
 
+        $mpesaPayment = DB::table('payment_gateways')->where('name', '=', 'M-Pesa')->first();
+        if ($mpesaPayment === null) {
+            DB::table('payment_gateways')->insert(
+                [
+                    'provider_name' => 'M-Pesa',
+                    'provider_url' => 'https://mpesa.safaricom.com',
+                    'is_on_site' => 1,
+                    'can_refund' => 0,
+                    'name' => 'M-Pesa',
+                    'default' => 1,
+                    'admin_blade_template' => '',
+                    'checkout_blade_template' => 'Public.ViewEvent.Partials.PaymentMpesa'
+                ]
+            );
+        }
+
     }
 }

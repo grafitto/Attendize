@@ -148,7 +148,7 @@ class Account extends MyBaseModel
     public function getGatewayConfigVal($gateway_id, $key)
     {
         $gateway = $this->getGateway($gateway_id);
-
+        
         if($gateway && is_array($gateway->config)) {
             return isset($gateway->config[$key]) ? $gateway->config[$key] : false;
         }

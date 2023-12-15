@@ -53,6 +53,21 @@ class Factory
                     return new StripeSCA($gateway, $paymentGatewayConfig);
 
                 }
+            
+            case Mpesa::GATEWAY_NAME :
+                {
+                    $gateway = Omnipay::create(ucfirst($name));
+                    $gateway->setShortCode($paymentGatewayConfig['shortCode']);
+                    $gateway->setConsumerKey($paymentGatewayConfig['consumerKey']);
+                    $gateway->setConsumerSecret($paymentGatewayConfig['consumerSecret']);
+                    $gateway->setPassKey($paymentGatewayConfig['password']);
+                    if($paymentGatewayConfig['testMode']) {
+                        $gateway->setTestMode('sandbox'); 
+                    }
+                    // $gateway->initialize($paymentGatewayConfig);
+
+                    return new Mpesa($gateway, $paymentGatewayConfig);
+                }
 
             default :
                 {

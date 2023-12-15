@@ -44,6 +44,7 @@ return [
     'expiry_year'                       => 'Año de expiración',
     'Facebook'                          => 'Facebook',
     'first_name'                        => 'Nombre',
+    'mpesa_phone_number'                => 'Mpesa Phone Number',
     'free'                              => 'GRATIS',
     'grand_total'                       => 'Total general',
     'has_unlock_codes'                  => '¿Tienes un código de desbloqueo?',

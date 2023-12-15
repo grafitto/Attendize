@@ -36,6 +36,7 @@ return [
   'expiry_month' => 'Vervaldatum month',
   'expiry_year' => 'Vervaldatum year',
   'first_name' => 'Voornaam',
+  'mpesa_phone_number' => 'Mpesa Phone Number',
   'free' => 'GRATIS',
   'has_unlock_codes' => 'Heeft u een toegangscode?',
   'inc_fees' => 'Boekingskosten',
